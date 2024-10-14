@@ -15,19 +15,19 @@ SoundBeep, 300, 200
 SoundBeep, 400, 200
 
 ;HOTKEYS
-key_stay_on	:= 	"F1"		; self explanatory		
+key_stay_on	:= 	"f"		; self explanatory		
 key_hold_mode	:= 	"F2"		; scan will only scan if "key_hold" is pressed
 key_fastclick 	:= 	"F3"		; self explanatory (on/off beep sound only)
-key_off		:= 	"F4"		; self explanatory	
+key_off		:= 	"g"		; self explanatory	
 key_gui_hide	:=	"Home"		; hides gui (graphical user interface)		
-key_exit	:= 	"End"		; self explanatory		
+key_exit	:= 	"-"		; self explanatory		
 key_hold	:=	"LALT" 	; key that you hold to scan (example "T") 	
 
 ;SETTINGS
-pixel_box	:=	3		; Keep between min 3 and max 8		
-pixel_sens	:=	20	; higher/lower = more/less color sensitive 		
-pixel_color	:=	0xFEFE40	; yellow="0xFEFE40", purple="0xA145A3"
-tap_time	:=	20		; Delay in ms between shots when triggered
+pixel_box	:=	8		; Keep between min 3 and max 8		
+pixel_sens	:=	50	; higher/lower = more/less color sensitive 		
+pixel_color	:=	0xA145A3	; yellow="0xFEFE40", purple="0xA145A3"
+tap_time	:=	8		; Delay in ms between shots when triggered
 
 ;DO NOT TOUCH?
 Gui,2:Font,Cdefault,Fixedsys
